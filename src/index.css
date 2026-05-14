@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  /* scroll-behavior: smooth; managed by Lenis */
+}
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Poppins", ui-serif, Georgia, serif;
+  
+  --color-primary-50: #faf5ff;
+  --color-primary-100: #f3e8ff;
+  --color-primary-200: #e9d5ff;
+  --color-primary-300: #d8b4fe;
+  --color-primary-400: #c084fc;
+  --color-primary-500: #a855f7;
+  --color-primary-600: #9333ea;
+  
+  --color-base-bg: #ffffff;
+  --color-base-text: #52525b;
+  --color-base-heading: #18181b;
+
+  --color-cream-50: #fffbeb;
+  --color-cream-100: #fef3c7;
+  --color-cream-200: #fde68a;
+  --color-cream-300: #fcd34d;
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased bg-[var(--color-base-bg)] text-[var(--color-base-text)] dark:bg-gray-950 dark:text-gray-200 transition-colors duration-300;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-[var(--color-base-heading)] dark:text-white;
+  }
+}
+
+.glass-nav {
+  @apply bg-white/40 dark:bg-gray-900/40 backdrop-blur-xl border-b border-primary-100/50 dark:border-gray-800/50;
+}
