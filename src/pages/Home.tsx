@@ -50,7 +50,7 @@ export default function Home() {
               <p className="text-base md:text-xl opacity-80 max-w-md mx-auto lg:mx-0 mb-8 md:mb-10 font-sans leading-relaxed text-[var(--color-base-heading)] dark:text-gray-300">
                 Sentuhan estetik untuk setiap momen berharga—dari wisuda hingga wedding, kami hadirkan buket eksklusif untuk Anda.
               </p>
-              
+
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 items-center lg:items-center lg:justify-start">
                 <a
                   href="https://wa.me/6285883490307?text=Halo%20Buket%20Kita%20Jonggol,%20saya%20ingin%20memesan%20buket"
@@ -73,7 +73,7 @@ export default function Home() {
             >
               <div className="bg-white p-5 rounded-[2.5rem] shadow-2xl border-2 border-gray-100 transform -rotate-3 hover:rotate-0 transition-all duration-500">
                 <div className="w-full aspect-[4/5] bg-gray-50 rounded-[2rem] mb-4 flex items-center justify-center overflow-hidden border border-gray-100">
-                   <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&q=80&w=400" alt="Wedding" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                  <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&q=80&w=400" alt="Wedding" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                 </div>
                 <h3 className="font-sans text-base font-bold text-center text-[var(--color-base-heading)] dark:text-white">Eternal Rose</h3>
                 <p className="text-[10px] uppercase tracking-widest opacity-40 text-center mb-3">Wedding Edition</p>
@@ -90,7 +90,7 @@ export default function Home() {
                 <span className="block text-center text-sm font-bold text-primary-500">Rp 250.000</span>
               </div>
               <div className="absolute -top-10 -right-6 w-32 h-32 bg-primary-500 rounded-full flex items-center justify-center text-white text-center p-4 border-8 border-[var(--color-base-bg)] dark:border-gray-950 rotate-12 z-20 shadow-lg">
-                <Link 
+                <Link
                   to="/custom"
                   className="text-[10px] font-bold uppercase tracking-tight hover:scale-105 transition-transform block"
                 >
@@ -117,16 +117,16 @@ export default function Home() {
                   <img src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&q=80&w=800" alt="About Buket Kita Jonggol" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                 </div>
               </div>
-                <div className="absolute -bottom-6 -right-2 lg:-right-4 w-32 h-32 sm:w-48 sm:h-48 bg-white dark:bg-gray-900 rounded-full border-4 md:border-8 border-gray-100 flex flex-col items-center justify-center p-4 shadow-xl z-10">
-                  <p className="font-bold text-2xl sm:text-4xl text-primary-500">5+</p>
-                  <p className="text-[8px] sm:text-[10px] uppercase tracking-widest text-center mt-1 font-bold text-[var(--color-base-heading)] dark:text-gray-300">Tahun Pengalaman</p>
-                </div>
+              <div className="absolute -bottom-6 -right-2 lg:-right-4 w-32 h-32 sm:w-48 sm:h-48 bg-white dark:bg-gray-900 rounded-full border-4 md:border-8 border-gray-100 flex flex-col items-center justify-center p-4 shadow-xl z-10">
+                <p className="font-bold text-2xl sm:text-4xl text-primary-500">5+</p>
+                <p className="text-[8px] sm:text-[10px] uppercase tracking-widest text-center mt-1 font-bold text-[var(--color-base-heading)] dark:text-gray-300">Tahun Pengalaman</p>
+              </div>
             </motion.div>
-            
+
             <motion.div
-               initial={{ opacity: 0, x: 20 }}
-               whileInView={{ opacity: 1, x: 0 }}
-               viewport={{ once: true }}
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
             >
               <div className="mb-6">
                 <span className="bg-primary-500 text-white text-[9px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">
@@ -142,15 +142,15 @@ export default function Home() {
               <p className="text-lg opacity-80 mb-10 font-sans leading-relaxed text-[var(--color-base-heading)] dark:text-gray-300">
                 Setiap buket dirangkai dengan teliti, perpaduan bunga segar berkualitas dengan sentuhan desain modern. Kami menemani ribuan momen spesial pelanggan kami, menjadikannya kenangan yang tak terlupakan.
               </p>
-              
+
               <div className="grid grid-cols-2 gap-6">
                 <div>
-                   <h4 className="font-bold text-[var(--color-base-heading)] dark:text-white text-xl mb-2">10k+</h4>
-                   <p className="text-xs uppercase tracking-widest opacity-60 text-[var(--color-base-heading)] dark:text-gray-400">Happy Customers</p>
+                  <h4 className="font-bold text-[var(--color-base-heading)] dark:text-white text-xl mb-2">10k+</h4>
+                  <p className="text-xs uppercase tracking-widest opacity-60 text-[var(--color-base-heading)] dark:text-gray-400">Happy Customers</p>
                 </div>
                 <div>
-                   <h4 className="font-bold text-[var(--color-base-heading)] dark:text-white text-xl mb-2">Premium</h4>
-                   <p className="text-xs uppercase tracking-widest opacity-60 text-[var(--color-base-heading)] dark:text-gray-400">Quality Flowers</p>
+                  <h4 className="font-bold text-[var(--color-base-heading)] dark:text-white text-xl mb-2">Premium</h4>
+                  <p className="text-xs uppercase tracking-widest opacity-60 text-[var(--color-base-heading)] dark:text-gray-400">Quality Flowers</p>
                 </div>
               </div>
             </motion.div>
@@ -183,7 +183,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <motion.div 
+          <motion.div
             variants={staggerContainer}
             initial="hidden"
             whileInView="show"
@@ -268,21 +268,21 @@ export default function Home() {
               Kami siap menyambut Anda. Lihat rute perjalanan menuju Buket Kita Jonggol melalui peta di bawah ini.
             </p>
             <div className="w-full h-[300px] md:h-[450px] rounded-2xl md:rounded-3xl overflow-hidden border-2 md:border-4 border-primary-100 shadow-2xl mb-8 group relative lg:max-w-4xl mx-auto">
-              <iframe 
-                src="https://maps.google.com/maps?q=-6.4966968,107.0065493(Buket%20Kita%20Jonggol)&t=&z=15&ie=UTF8&iwloc=&output=embed" 
-                width="100%" 
-                height="100%" 
-                style={{ border: 0 }} 
-                allowFullScreen={true} 
-                loading="lazy" 
+              <iframe
+                src="https://maps.google.com/maps?q=-6.4966968,107.0065493(Buket%20Kita%20Jonggol)&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Google Maps - Buket Kita Jonggol"
                 className="transition-transform duration-500 group-hover:scale-[1.01]"
               ></iframe>
             </div>
-            <a 
-              href="https://maps.app.goo.gl/giKSRQqq36BiMy8y5" 
-              target="_blank" 
+            <a
+              href="https://maps.app.goo.gl/giKSRQqq36BiMy8y5"
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary-600 hover:bg-primary-700 text-white px-10 py-4 rounded-full font-bold transition-all hover:-translate-y-1 shadow-xl hover:shadow-2xl active:scale-95"
             >
